@@ -9,9 +9,15 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: var(--dark-green);
     color: white;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -412,5 +418,6 @@ body {
     .download-btn:hover {
         background-color: #256d25;
     }
+
     
 }
